@@ -44,17 +44,6 @@ cp mcp_config.template.json mcp_config.json
 
 2. Edit `mcp_config.json` with your configuration settings. The file is ignored by git for security.
 
-### Important Note About Ignored Files
-
-The following files and directories are ignored by git for security and cleanliness:
-- `node_modules/`: Node.js dependencies
-- `__pycache__/`: Python cache files
-- `mcp_config.json`: Your personal configuration
-- `*.log`: Log files
-- `.env`: Environment variables
-- Virtual environment directories (`venv/`, `env/`, `ENV/`)
-- IDE specific files (`.idea/`, `.vscode/`)
-
 ## Usage
 
 ### Running the Chainlit Interface
