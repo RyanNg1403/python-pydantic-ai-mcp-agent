@@ -1,0 +1,45 @@
+
+    import * as React from 'react';
+
+    import { IconType } from '../types';
+
+    type SiChakrauiProps = React.ComponentPropsWithoutRef<'svg'> & {
+      /**
+       * The title provides an accessible short text description to the SVG
+       */
+      title?: string;
+      /**
+       * Hex color or color name or "default" to use the default hex for each icon
+       */
+      color?: string;
+      /**
+       * The size of the Icon.
+       */
+      size?: string | number;
+    }
+
+    const defaultColor = '#319795';
+
+    const SiChakraui: IconType = React.forwardRef<SVGSVGElement, SiChakrauiProps>(function SiChakraui({title = 'Chakra UI', color = 'currentColor', size = 24, ...others }, ref) {
+      if (color === 'default') {
+        color = defaultColor;
+      }
+
+      return (
+        <svg
+          xmlns='http://www.w3.org/2000/svg'
+          width={size}
+          height={size}
+          fill={color}
+          viewBox='0 0 24 24'
+          ref={ref}
+          {...others}
+        >
+          <title>{title}</title>
+          <path d='M12 0C5.352 0 0 5.352 0 12s5.352 12 12 12 12-5.352 12-12S18.648 0 12 0zm2.8 4.333c.13-.004.248.136.171.278l-3.044 5.58a.187.187 0 00.164.276h5.26c.17 0 .252.207.128.323l-9.22 8.605c-.165.154-.41-.063-.278-.246l4.364-6.021a.187.187 0 00-.151-.296H6.627a.187.187 0 01-.131-.32l8.18-8.123a.182.182 0 01.125-.056z' />
+        </svg>
+      );
+    });
+
+    export { SiChakraui as default, defaultColor };
+  

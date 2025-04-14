@@ -1,0 +1,102 @@
+2025-04-14 07:30:12,811 - root - INFO - Anonymized telemetry enabled. See https://docs.browser-use.com/development/telemetry for more information.
+2025-04-14 07:30:14,241 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-04-14 07:35:12,989 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 07:35:12,990 - mcp_server_browser_use - ERROR - Error running sync deep research task 'online shopping trends 2023': run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/PPfo2lLKVW7a6lq91NywV/lib/python3.12/site-packages/mcp_server_browser_use/server.py", line 104, in run_deep_search
+    ) = _run_deep_search(
+        ^^^^^^^^^^^^^^^^^
+TypeError: run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+
+2025-04-14 07:35:13,427 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 07:35:13,428 - mcp_server_browser_use - ERROR - Error running sync deep research task 'General knowledge about ancient civilizations': run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/PPfo2lLKVW7a6lq91NywV/lib/python3.12/site-packages/mcp_server_browser_use/server.py", line 104, in run_deep_search
+    ) = _run_deep_search(
+        ^^^^^^^^^^^^^^^^^
+TypeError: run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+
+2025-04-14 07:35:13,798 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 07:35:14,014 - browser_use.agent.service - INFO - 🚀 Starting task: Can you provide information about the latest technological advancements in AI?
+2025-04-14 07:35:14,014 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 07:35:15,265 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 07:35:15,266 - browser_use.agent.service - ERROR - ❌ Result failed 1/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 07:35:15,266 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 07:35:15,989 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 07:35:15,990 - browser_use.agent.service - ERROR - ❌ Result failed 2/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 07:35:15,990 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 07:35:16,703 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 07:35:16,704 - browser_use.agent.service - ERROR - ❌ Result failed 3/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 07:35:16,704 - browser_use.agent.service - ERROR - ❌ Stopping due to 3 consecutive failures
+2025-04-14 07:35:16,993 - browser_use.agent.gif - INFO - Created GIF at agent_history.gif
+2025-04-14 07:35:17,194 - mcp_server_browser_use - ERROR - Synchronous browser task 'Can you provide information about the latest technological advancements in AI?' failed: ['model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)', 'model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)', 'model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)']
+2025-04-14 07:35:17,195 - mcp.server.lowlevel.server - INFO - Warning: LangChainBetaWarning: The function `load` is in beta. It is actively being worked on, so the API may change.
+2025-04-14 07:36:25,298 - root - INFO - Anonymized telemetry enabled. See https://docs.browser-use.com/development/telemetry for more information.
+2025-04-14 07:36:25,904 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-04-14 07:39:21,117 - root - INFO - Anonymized telemetry enabled. See https://docs.browser-use.com/development/telemetry for more information.
+2025-04-14 07:39:21,721 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-04-14 07:40:09,273 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 07:40:09,274 - mcp_server_browser_use - ERROR - Error running sync deep research task 'Elon Musk Net Worth as of April 2025': run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/PPfo2lLKVW7a6lq91NywV/lib/python3.12/site-packages/mcp_server_browser_use/server.py", line 104, in run_deep_search
+    ) = _run_deep_search(
+        ^^^^^^^^^^^^^^^^^
+TypeError: run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+
+2025-04-14 07:40:20,486 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 07:40:20,641 - browser_use.agent.service - INFO - 🚀 Starting task: Visit a financial news site and search for Elon Musk's net worth as of April 2025.
+2025-04-14 07:40:20,642 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 07:40:21,927 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 07:40:21,929 - browser_use.agent.service - ERROR - ❌ Result failed 1/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 07:40:21,930 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 07:40:22,733 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 07:40:22,733 - browser_use.agent.service - ERROR - ❌ Result failed 2/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 07:40:22,734 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 07:40:23,436 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 07:40:23,436 - browser_use.agent.service - ERROR - ❌ Result failed 3/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 07:40:23,436 - browser_use.agent.service - ERROR - ❌ Stopping due to 3 consecutive failures
+2025-04-14 07:40:23,659 - browser_use.agent.gif - INFO - Created GIF at agent_history.gif
+2025-04-14 07:40:23,837 - mcp_server_browser_use - ERROR - Synchronous browser task 'Visit a financial news site and search for Elon Musk's net worth as of April 2025.' failed: ['model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)', 'model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)', 'model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)']
+2025-04-14 07:40:23,837 - mcp.server.lowlevel.server - INFO - Warning: LangChainBetaWarning: The function `load` is in beta. It is actively being worked on, so the API may change.
+2025-04-14 07:40:58,979 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 07:40:58,980 - mcp_server_browser_use - ERROR - Error running sync deep research task 'Elon Musk Networth as of April 2025': run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/PPfo2lLKVW7a6lq91NywV/lib/python3.12/site-packages/mcp_server_browser_use/server.py", line 104, in run_deep_search
+    ) = _run_deep_search(
+        ^^^^^^^^^^^^^^^^^
+TypeError: run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+
+2025-04-14 08:06:29,935 - root - INFO - Anonymized telemetry enabled. See https://docs.browser-use.com/development/telemetry for more information.
+2025-04-14 08:06:30,531 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+2025-04-14 08:07:09,307 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 08:07:09,308 - mcp_server_browser_use - ERROR - Error running sync deep research task 'birthdate of Ho Chi Minh': run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/PPfo2lLKVW7a6lq91NywV/lib/python3.12/site-packages/mcp_server_browser_use/server.py", line 104, in run_deep_search
+    ) = _run_deep_search(
+        ^^^^^^^^^^^^^^^^^
+TypeError: run_deep_search() got an unexpected keyword argument 'max_search_iterations'
+
+2025-04-14 08:07:19,877 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2025-04-14 08:07:20,026 - browser_use.agent.service - INFO - 🚀 Starting task: Search for the birthdate of Ho Chi Minh
+2025-04-14 08:07:20,026 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 08:07:21,164 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 08:07:21,165 - browser_use.agent.service - ERROR - ❌ Result failed 1/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 08:07:21,165 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 08:07:21,910 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 08:07:21,910 - browser_use.agent.service - ERROR - ❌ Result failed 2/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 08:07:21,911 - browser_use.agent.service - INFO - 📍 Step 1
+2025-04-14 08:07:22,610 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 404 Not Found"
+2025-04-14 08:07:22,610 - browser_use.agent.service - ERROR - ❌ Result failed 3/3 times:
+ model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)
+2025-04-14 08:07:22,611 - browser_use.agent.service - ERROR - ❌ Stopping due to 3 consecutive failures
+2025-04-14 08:07:22,823 - browser_use.agent.gif - INFO - Created GIF at agent_history.gif
+2025-04-14 08:07:23,004 - mcp_server_browser_use - ERROR - Synchronous browser task 'Search for the birthdate of Ho Chi Minh' failed: ['model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)', 'model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)', 'model "claude-3-7-sonnet-20250219" not found, try pulling it first (status code: 404)']
+2025-04-14 08:07:23,005 - mcp.server.lowlevel.server - INFO - Warning: LangChainBetaWarning: The function `load` is in beta. It is actively being worked on, so the API may change.
