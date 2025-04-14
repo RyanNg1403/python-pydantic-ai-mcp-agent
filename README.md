@@ -21,8 +21,8 @@ A powerful AI agent implementation using Pydantic and Chainlit, capable of web b
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pydantic-ai-mcp-agent.git
-cd pydantic-ai-mcp-agent
+git clone https://github.com/RyanNg1403/pydantic-ai-mcp-agent-with-chainlit.git
+cd pydantic-ai-mcp-agent-with-chainlit
 ```
 
 2. Install Python dependencies:
@@ -30,9 +30,9 @@ cd pydantic-ai-mcp-agent
 pip install -r requirements.txt
 ```
 
-3. Install MCP server:
+3. Install Node.js dependencies:
 ```bash
-npm install -g exa-mcp-server
+npm install
 ```
 
 ## Configuration
@@ -42,7 +42,18 @@ npm install -g exa-mcp-server
 cp mcp_config.template.json mcp_config.json
 ```
 
-2. Edit `mcp_config.json` and replace `your-api-key-here` with your actual MCP API key.
+2. Edit `mcp_config.json` with your configuration settings. The file is ignored by git for security.
+
+### Important Note About Ignored Files
+
+The following files and directories are ignored by git for security and cleanliness:
+- `node_modules/`: Node.js dependencies
+- `__pycache__/`: Python cache files
+- `mcp_config.json`: Your personal configuration
+- `*.log`: Log files
+- `.env`: Environment variables
+- Virtual environment directories (`venv/`, `env/`, `ENV/`)
+- IDE specific files (`.idea/`, `.vscode/`)
 
 ## Usage
 
@@ -52,23 +63,24 @@ cp mcp_config.template.json mcp_config.json
 chainlit run pydantic_mcp_chainlit.py
 ```
 
-### Running the Browser Test
+### Running the Agent Directly
 
 ```bash
-python browser-use-test/main.py
+python pydantic_mcp_agent.py
 ```
 
 ## Project Structure
 
 - `pydantic_mcp_agent.py`: Core agent implementation
 - `pydantic_mcp_chainlit.py`: Chainlit interface implementation
-- `ollama_model.py`: Ollama LLM integration
 - `mcp_client.py`: MCP client implementation
-- `browser-use-test/`: Browser automation test examples
+- `requirements.txt`: Python dependencies
+- `mcp_config.template.json`: Template for configuration
+- `.gitignore`: Specifies which files git should ignore
 
 ## Environment Variables
 
-The following environment variables can be set:
+The following environment variables can be set in your `.env` file:
 
 - `EXA_API_KEY`: Your MCP API key
 - `OLLAMA_HOST`: Ollama host address (default: http://localhost:11434)
