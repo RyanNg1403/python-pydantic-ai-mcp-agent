@@ -82,12 +82,3 @@ The following environment variables can be set in your `.env` file:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Thanks to the Chainlit team for their excellent chat interface
-- Thanks to the Ollama team for their local LLM solution
-- Thanks to the MCP team for their browser automation capabilities 
