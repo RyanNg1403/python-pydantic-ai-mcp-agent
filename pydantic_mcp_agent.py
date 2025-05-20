@@ -85,16 +85,9 @@ async def main():
                 # Process the user input and output the response
                 console.print("\n[Assistant]")
                 
-                # Check if the agent's run method is synchronous or asynchronous
-                if hasattr(mcp_agent, "run") and asyncio.iscoroutinefunction(mcp_agent.run):
-                    # If it's async, use await
-                    result = await mcp_agent.run(user_input, message_history=messages)
-                elif hasattr(mcp_agent, "run_sync"):
-                    # If there's a synchronous version, use that
-                    result = mcp_agent.run_sync(user_input, message_history=messages)
-                else:
-                    # Try the default approach
-                    result = mcp_agent.run(user_input, message_history=messages)
+
+                result = await mcp_agent.run(user_input, message_history=messages)
+              
                 
                 # Extract the text from the result
                 result_text = result.data
